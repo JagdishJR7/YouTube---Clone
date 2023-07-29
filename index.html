@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube clone </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- side bars  -->
+        <aside>
+            <div class="bars">
+                <img src="icons/bars.svg" alt="bars">
+            </div>
+
+            <div class="side-icons">
+                <i><img src="icons/home.svg" alt="home"></i>
+                <p>Home</p>
+            </div>
+
+            <div class="side-icons">
+                <i><img src="icons/compass.svg" alt="explore"></i>
+                <p>Explore</p>
+            </div>
+
+            <div class="side-icons">
+                <i><img src="icons/video-gallary.svg" alt="gallary"></i>
+                <p>Subscriptions</p>
+            </div>
+            
+            <div class="side-icons">
+                <i><img src="icons/video-library.svg" alt="liberary"></i>
+                <p>Liberray</p>
+            </div>
+        </aside>
+
+        <!-- main container  -->
+        <div class="main-container">
+            <header>
+                <nav>
+                    <div class="logo">
+                        <img src="images/youtube-logo.png" alt="Youtube logo">
+                    </div>
+                    <div class="center-nav">
+                        <div class="search">
+                            <input type="text">
+                            <button><img src="icons/search.svg" alt=""></button>
+                        </div>
+
+                        <div class="mic">
+                            <img src="icons/mic.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="side-nav">
+                        <i><img src="icons/video-add.svg" alt=""></i>
+                        <i><img src="icons/dot-grid.svg" alt=""></i>
+                        <i><img src="icons/bell.svg" alt=""></i>
+                        <i><img style="width: 40px; border-radius: 50%; height: 40px;" src="images/avatar1.png" alt="avatar" /></i>
+                    </div>
+                </nav>
+
+                <!-- now tags  -->
+                <div class="tags">
+                    <div class="tag dark">All</div>
+                    <div class="tag light">Mixes</div>
+                    <div class="tag light">Crypto</div>
+                    <div class="tag light">HTML</div>
+                    <div class="tag light">CSS</div>
+                    <div class="tag light">Java Script</div>
+                </div>
+            </header>
+            <!-- <hr> -->
+
+            <!-- main and last page of layout  -->
+            <main>
+                <div class="card-container">
+                    <!-- 1st image  -->
+                    <div class="card">
+                        <!-- <img src="images/thumbnail1.png" alt="thumbnail" /> -->
+                        <video width="300px" height="220px" src="videos/video1.mp4"loop controls poster="images/thumbnail1.png" muted></video>
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img style="width: 40px; border-radius: 50%; height: 40px;" src="images/avatar1.png" alt="avatar" />
+                            </div>
+
+                            <div class="content">
+                                <h3>Size of YouTube Thumbnail</h3>
+                                <p class="channel-name">Thumbnail Helper JR</p>
+                                <div class="content-status">
+                                    <p>5m views</p>
+                                    <p>1 day ago</p>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="dots" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2nd image  -->
+                    <div class="card">
+                        <!-- <img src="images/thumbnail2.png" alt=""> -->
+                        <video width="300px" height="220px" src="videos/video2.mp4" loop controls poster="images/thumbnail2.png" muted></video>
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img style="width: 40px; border-radius: 50%; height: 40px;" src="images/avatar1.png" alt="avatar" />
+                            </div>
+
+                            <!-- content for images  -->
+                            <div class="content">
+                                <h3>50 Best Image for thumbnail</h3>
+                                <p class="channel-name">Thumbnail Helper JR</p>
+                                <div class="content-status">
+                                    <p>5m views</p>
+                                    <p>9 day ago</p>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3rd image  -->
+                    <div class="card">
+                        <!-- <img src="images/thumbnail3.png" alt=""> -->
+                        <video width="300px" height="220px" src="videos/video3.mp4"loop controls poster="images/thumbnail3.png" muted></video>
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img style="width: 40px; border-radius: 50%; height: 40px;" src="images/avatar1.png" alt="avatar" />
+                            </div>
+
+                            <!-- content for images  -->
+                            <div class="content">
+                                <h3>How to earb from local content</h3>
+                                <p class="channel-name">Jagdish Rathore JR</p>
+                                <div class="content-status">
+                                    <p>11m views</p>
+                                    <p>13 day ago</p>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4th image  -->
+                    <div class="card">
+                        <!-- <img src="images/thumbnail4.png" alt=""> -->
+                        <video width="300px" height="220px" src="videos/video4.mp4"loop controls poster="images/thumbnail4.png" muted></video>
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img style="width: 40px; border-radius: 50%; height: 40px;" src="images/avatar1.png" alt="avatar" />
+                            </div>
+
+                            <!-- content for images  -->
+                            <div class="content">
+                                <h3>Caution of BOOM BAAM Daily custom</h3>
+                                <p class="channel-name">Jagdish Rathore JR</p>
+                                <div class="content-status">
+                                    <p>10.5m views</p>
+                                    <p>14 day ago</p>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5th iamge  -->
+                    <div class="card">
+                        <!-- <img src="images/thumbnail5.png" alt=""> -->
+                        <video width="300px" height="220px" src="videos/video1.mp4"loop controls poster="images/thumbnail5.png" muted></video>
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img style="width: 40px; border-radius: 50%; height: 40px;" src="images/avatar1.png" alt="avatar" />
+                            </div>
+
+                            <!-- content for images  -->
+                            <div class="content">
+                                <h3>Strong Thumbnail for YouTube0</h3>
+                                <p class="channel-name">Thumbnail Helper JR</p>
+                                <div class="content-status">
+                                    <p>13m views</p>
+                                    <p>16 day ago</p>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 6th image  -->
+                    <div class="card">
+                        <!-- <img src="images/thumbnail6.png" alt=""> -->
+                        <video width="300px" height="220px" src="videos/video2.mp4"loop controls poster="images/thumbnail6.png" muted></video>
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img style="width: 40px; border-radius: 50%; height: 40px;" src="images/avatar1.png" alt="avatar" />
+                            </div>
+
+                            <!-- content for images  -->
+                            <div class="content">
+                                <h3>Official Movie Trailer of RRR</h3>
+                                <p class="channel-name">RRR Movie Production</p>
+                                <div class="content-status">
+                                    <p>112m views</p>
+                                    <p>12 day ago</p>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 7th image  -->
+                    <div class="card">
+                        <!-- <img src="images/thumbnail7.png" alt=""> -->
+                        <video width="300px" height="220px" src="videos/video3.mp4"loop controls poster="images/thumbnail7.png" muted></video>
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img style="width: 40px; border-radius: 50%; height: 40px;" src="images/avatar1.png" alt="avatar" />
+                            </div>
+
+                            <!-- content for images  -->
+                            <div class="content">
+                                <h3>Free fire crash course</h3>
+                                <p class="channel-name">JR Gamer</p>
+                                <div class="content-status">
+                                    <p>14m views</p>
+                                    <p>19 day ago</p>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 8th image  -->
+                    <div class="card">
+                        <!-- <img src="images/thumbnail8.png" alt=""> -->
+                        <video width="300px" height="220px" src="videos/video4.mp4"loop controls poster="images/thumbnail8.png" muted></video>
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img style="width: 40px; border-radius: 50%; height: 40px;" src="images/avatar1.png" alt="avatar" />
+                            </div>
+
+                            <!-- content for images  -->
+                            <div class="content">
+                                <h3>Session on NOBLE BE MAN helpful</h3>
+                                <p class="channel-name">Jagdish Rathore JR</p>
+                                <div class="content-status">
+                                    <p>24m views</p>
+                                    <p>26 day ago</p>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 9th image  -->
+                    <div class="card">
+                        <!-- <img src="images/thumbnail9.png" alt=""> -->
+                        <video width="300px" height="220px" src="videos/video1.mp4"loop controls poster="images/thumbnail9.png" muted></video>
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img style="width: 40px; border-radius: 50%; height: 40px;" src="images/avatar1.png" alt="avatar" />
+                            </div>
+
+                            <!-- content for images  -->
+                            <div class="content">
+                                <h3>One of the BEST attractive thubnail</h3>
+                                <p class="channel-name">Thumbnail Helper JR</p>
+                                <div class="content-status">
+                                    <p>15m views</p>
+                                    <p>1 month ago</p>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 10th image  -->
+                    <div class="card">
+                        <!-- <img src="images/thumbnail10.png" alt=""> -->
+                        <video width="300px" height="220px" src="videos/video2.mp4"loop controls poster="images/thumbnail10.png" muted></video>
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img style="width: 40px; border-radius: 50%; height: 40px;" src="images/avatar1.png" alt="avatar" />
+                            </div>
+
+                            <!-- content for images  -->
+                            <div class="content">
+                                <h3>How to make FREE thumbnail</h3>
+                                <p class="channel-name">Thumbnail Helper JR</p>
+                                <div class="content-status">
+                                    <p>56m views</p>
+                                    <p>1 month ago</p>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 11th image  -->
+                    <div class="card">
+                        <!-- <img src="images/thumbnail11.png" alt=""> -->
+                        <video width="300px" height="220px" src="videos/video3.mp4"loop controls poster="images/thumbnail11.png" muted></video>
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img style="width: 40px; border-radius: 50%; height: 40px;" src="images/avatar1.png" alt="avatar" />
+                            </div>
+
+                            <!-- content for images  -->
+                            <div class="content">
+                                <h3>50+ Best thumbnail HERE</h3>
+                                <p class="channel-name">Thumbnail Helper JR</p>
+                                <div class="content-status">
+                                    <p>42m views</p>
+                                    <p>1 month ago</p>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 12th image  -->
+                    <div class="card">
+                        <!-- <img src="images/thumbnail12.png" alt=""> -->
+                        <video width="300px" height="220px" src="videos/video4.mp4"loop controls poster="images/thumbnail12.png" muted></video>
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img style="width: 40px; border-radius: 50%; height: 40px;" src="images/avatar1.png" alt="avatar" />
+                            </div>
+
+                            <!-- content for images  -->
+                            <div class="content">
+                                <h3>Attractive thumbnail </h3>
+                                <p class="channel-name">Thumbnail Helper JR</p>
+                                <div class="content-status">
+                                    <p>30m views</p>
+                                    <p>1 month ago</p>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 13th image  -->
+                    <div class="card">
+                        <!-- <img src="images/thumbnail13.png" alt=""> -->
+                        <video width="300px" height="220px" src="videos/video1.mp4"loop controls poster="images/thumbnail13.png" muted></video>
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img style="width: 40px; border-radius: 50%; height: 40px;" src="images/avatar1.png" alt="avatar" />
+                            </div>
+
+                            <!-- content for images  -->
+                            <div class="content">
+                                <h3>How to make an EYE catching thumbnail</h3>
+                                <p class="channel-name">Thumbnail Helper JR</p>
+                                <div class="content-status">
+                                    <p>103m views</p>
+                                    <p>1 month ago</p>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 14th image 
+                     -->
+                    <div class="card">
+                        <!-- <img src="images/thumbnail14.png" alt=""> -->
+                        <video width="300px" height="220px" src="videos/video2.mp4"loop controls poster="images/thumbnail14.png" muted></video>
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img style="width: 40px; border-radius: 50%; height: 40px;" src="images/avatar1.png" alt="avatar" />
+                            </div>
+
+                            <!-- content for images  -->
+                            <div class="content">
+                                <h3>How to make a Youtube Video</h3>
+                                <p class="channel-name">Jagdish Rathore JR</p>
+                                <div class="content-status">
+                                    <p>105m views</p>
+                                    <p>2 month ago</p>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 15th image  -->
+                    <div class="card">
+                        <!-- <img src="images/thumbnail15.png" alt=""> -->
+                        <video width="300px" height="220px" src="videos/video3.mp4"loop controls poster="images/thumbnail15.png" muted></video>
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img style="width: 40px; border-radius: 50%; height: 40px;" src="images/avatar1.png" alt="avatar" />
+                            </div>
+
+                            <!-- content for images  -->
+                            <div class="content">
+                                <h3>How to Make CONCEPT and IDEA for Design</h3>
+                                <p class="channel-name">Jagdish Rathore JR</p>
+                                <div class="content-status">
+                                    <p>95m views</p>
+                                    <p>2 month ago</p>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 16th image  -->
+                    <div class="card">
+                        <!-- <img src="images/thumbnail16.png" alt=""> -->
+                        <video width="300px" height="220px" src="videos/video4.mp4"loop controls poster="images/thumbnail16.png" muted></video>
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img style="width: 40px; border-radius: 50%; height: 40px;" src="images/avatar1.png" alt="avatar" />
+                            </div>
+
+                            <!-- content for images  -->
+                            <div class="content">
+                                <h3>FREE Fire Best Game EVER</h3>
+                                <p class="channel-name">JR Gamer</p>
+                                <div class="content-status">
+                                    <p>95m views</p>
+                                    <p>2 month ago</p>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 17th image  -->
+                    <div class="card">
+                        <!-- <img src="images/thumbnail17.png" alt=""> -->
+                        <video width="300px" height="220px" src="videos/video1.mp4"loop controls poster="images/thumbnail17.png" muted></video>
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img style="width: 40px; border-radius: 50%; height: 40px;" src="images/avatar1.png" alt="avatar" />
+                            </div>
+
+                            <!-- content for images  -->
+                            <div class="content">
+                                <h3>YouTube Background thumbnail</h3>
+                                <p class="channel-name">Thumbnail Helper JR</p>
+                                <div class="content-status">
+                                    <p>108m views</p>
+                                    <p>2 month ago</p>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 18th image  -->
+                    <div class="card">
+                        <!-- <img src="images/thumbnail18.png" alt=""> -->
+                        <video width="300px" height="220px" src="videos/video2.mp4"loop controls poster="images/thumbnail18.png" muted></video>
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img style="width: 40px; border-radius: 50%; height: 40px;" src="images/avatar1.png" alt="avatar" />
+                            </div>
+
+                            <!-- content for images  -->
+                            <div class="content">
+                                <h3>Best squad Must Watch #pubg</h3>
+                                <p class="channel-name">JR Gamer</p>
+                                <div class="content-status">
+                                    <p>182m views</p>
+                                    <p>3 month ago</p>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 19th image  -->
+                    <div class="card">
+                        <!-- <img src="images/thumbnail19.png" alt=""> -->
+                        <video width="300px" height="220px" src="videos/video3.mp4"loop controls poster="images/thumbnail19.png" muted></video>
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img style="width: 40px; border-radius: 50%; height: 40px;" src="images/avatar1.png" alt="avatar" />
+                            </div>
+
+                            <!-- content for images  -->
+                            <div class="content">
+                                <h3>Simple Youtube thumbnail</h3>
+                                <p class="channel-name">Thumbnail Helper JR</p>
+                                <div class="content-status">
+                                    <p>153m views</p>
+                                    <p>3 month ago</p>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 20th image  -->
+                    <div class="card">
+                        <!-- <img src="images/thumbnail20.png" alt=""> -->
+                        <video width="300px" height="220px" src="videos/video4.mp4" autoplay loop controls poster="images/thumbnail20.png" muted></video>
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img style="width: 40px; border-radius: 50%; height: 40px;" src="images/avatar1.png" alt="avatar" />
+                            </div>
+
+                            <!-- content for images  -->
+                            <div class="content">
+                                <h3>YouTube Thumbnail Design</h3>
+                                <p class="channel-name">Thumbnail Helper JR</p>
+                                <div class="content-status">
+                                    <p>212m views</p>
+                                    <p>3 month ago</p>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
